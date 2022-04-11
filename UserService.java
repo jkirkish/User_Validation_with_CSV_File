@@ -21,7 +21,7 @@ public class UserService {
 
 	public void giveArrayContents() throws IOException, FileNotFoundException {
 
-		File file = new File("C:\\Users\\kirki\\eclipse-workspace\\Assignment3\\data.txt");
+		String file = "data.txt";
 
 		BufferedReader br = null;
 		try {
