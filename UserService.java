@@ -10,7 +10,7 @@ public class UserService {
 
 	public User isValid(String username, String password) {
 		for (User user : ThirdAssignment.users) {
-			if (user.getUsername().equals(username) &&
+			if (user.getUsername().equalsIgnoreCase(username) &&
 					user.getPassword().equals(password)) {
 				return user;
 			}
